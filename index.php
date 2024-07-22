@@ -1,3 +1,13 @@
+<?php
+
+    if(isset($_POST["bt_nome"])){
+
+      echo "Teste - Deu certo";
+
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,7 +27,7 @@
         <form action="" method="post">
 
             <label for="">Nome:</label>
-            <input class="form-control" type="text">
+            <input class="form-control" type="text" name="bt_nome">
             <div class="mb-3">
                 <label for="">Endereço:</label>
                 <input class="form-control" type="text">
